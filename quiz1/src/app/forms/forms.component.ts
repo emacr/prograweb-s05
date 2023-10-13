@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./forms.component.css']
 })
 export class FormsComponent {
+  //componete de datos
+  userData={
+    name:'',
+    lastname:'',
+    email:'',
+  };
+
+  showfORM=true;
+  onSubmit(){
+    console.log(this.userData);
+  }
 
 }
